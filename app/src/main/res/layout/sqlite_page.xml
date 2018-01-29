@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shoppingcartsqlite.MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/reyclerView_SQLite"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:background="@android:color/white"
+            android:padding="4dp"
+            android:scrollbars="vertical"
+            android:layout_weight="0.8">
+
+        </android.support.v7.widget.RecyclerView>
+
+        <TextView
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_weight="0.2"
+            android:gravity="center"
+            android:text="Pull item to Left or Right to Remove"
+            android:textColor="@android:color/holo_red_light"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

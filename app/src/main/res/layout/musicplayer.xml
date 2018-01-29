@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:orientation="vertical"
+    android:background="@drawable/bg_green"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        >
+
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2"
+        android:orientation="vertical">
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <SeekBar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/seekBar_Music"/>
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/button_Music_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/button_Music_main"
+                android:layout_marginEnd="45dp"
+                android:layout_toStartOf="@+id/button_Music_main"
+                android:src="@drawable/ic_arrow_back_black_24dp"
+                app:backgroundTint="#04b6e2" />
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/button_Music_main"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/button_Music_forward"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_play_arrow_black_24dp"
+                app:backgroundTint="#04b6e2" />
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/button_Music_forward"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="45dp"
+                android:layout_toEndOf="@+id/button_Music_main"
+                android:src="@drawable/ic_arrow_forward_black_24dp"
+                app:backgroundTint="#04b6e2" />
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

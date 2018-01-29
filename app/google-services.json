@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "290231400353",
+    "firebase_url": "https://wowfirebaseproject-cf278.firebaseio.com",
+    "project_id": "wowfirebaseproject-cf278",
+    "storage_bucket": "wowfirebaseproject-cf278.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:290231400353:android:edec154d28c5ae85",
+        "android_client_info": {
+          "package_name": "com.example.wow"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "290231400353-93oruk5h4d7u5l2h4qj0deniujg5q3a3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.wow",
+            "certificate_hash": "85161e2d246f5066e458ab09603f58863be5dad3"
+          }
+        },
+        {
+          "client_id": "290231400353-karbad7ugom7i93klm457iotlc1edi52.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPLO56LyO_9SjNe9IqbIDzeFX9hB7q1Tw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "290231400353-karbad7ugom7i93klm457iotlc1edi52.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

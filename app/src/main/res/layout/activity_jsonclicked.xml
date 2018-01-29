@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".JSONClickedActivity">
+
+    <ImageView
+        android:id="@+id/image_view_detail"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/text_view_creator_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:text="Creator Name"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/text_view_like_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:text="Likes: "
+        android:textColor="@android:color/holo_blue_light"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/text_view_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:text="View: "
+        android:textColor="@android:color/holo_blue_light"
+        android:textSize="25sp" />
+
+</LinearLayout>

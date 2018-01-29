@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+<item android:title="ShoppingCart" android:id="@+id/menu_shopping" app:showAsAction="never" />
+<item android:title="Firebase" android:id="@+id/menu_firebase" app:showAsAction="never" />
+<item android:title="JSON" android:id="@+id/menu_jsonimage" app:showAsAction="never" />
+<item android:title="MusicPlayer" android:id="@+id/menu_musicplayer" app:showAsAction="never" />
+<item android:title="MiniGame" android:id="@+id/menu_minigame" app:showAsAction="never" />
+
+    <item android:title="INFO"
+        android:id="@+id/menu_info"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_credits"/>
+
+
+</menu>
